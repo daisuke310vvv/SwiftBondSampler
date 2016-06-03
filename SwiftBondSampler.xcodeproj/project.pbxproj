@@ -8,20 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		2E0406211D00A1D500D42614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0406201D00A1D500D42614 /* AppDelegate.swift */; };
-		2E0406231D00A1D500D42614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0406221D00A1D500D42614 /* ViewController.swift */; };
+		2E0406231D00A1D500D42614 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0406221D00A1D500D42614 /* RootViewController.swift */; };
 		2E0406261D00A1D500D42614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0406241D00A1D500D42614 /* Main.storyboard */; };
 		2E0406281D00A1D500D42614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0406271D00A1D500D42614 /* Assets.xcassets */; };
 		2E04062B1D00A1D500D42614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0406291D00A1D500D42614 /* LaunchScreen.storyboard */; };
+		2E0406361D00AA7300D42614 /* CombineMultipleInputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0406351D00AA7300D42614 /* CombineMultipleInputsViewController.swift */; };
+		2E0406381D00AA9100D42614 /* CombineMultipleInputs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0406371D00AA9100D42614 /* CombineMultipleInputs.storyboard */; };
+		2E04063B1D01470300D42614 /* Observable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E04063A1D01470300D42614 /* Observable.storyboard */; };
+		2E04063D1D01470C00D42614 /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04063C1D01470C00D42614 /* ObservableViewController.swift */; };
+		2E0406401D014D1500D42614 /* BindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04063F1D014D1500D42614 /* BindingViewController.swift */; };
+		2E0406421D014D1F00D42614 /* Binding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0406411D014D1F00D42614 /* Binding.storyboard */; };
+		2E0406471D01565300D42614 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0406461D01565300D42614 /* ListViewController.swift */; };
+		2E0406491D01565D00D42614 /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0406481D01565D00D42614 /* List.storyboard */; };
+		2E04064B1D01567800D42614 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04064A1D01567800D42614 /* ListViewModel.swift */; };
+		2E04064D1D01568B00D42614 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04064C1D01568B00D42614 /* List.swift */; };
+		2E0406501D01667000D42614 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04064F1D01667000D42614 /* AlbumViewController.swift */; };
+		2E0406521D01667A00D42614 /* Album.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0406511D01667A00D42614 /* Album.storyboard */; };
+		2E0406541D0166B100D42614 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0406531D0166B100D42614 /* AlbumViewModel.swift */; };
+		2E0406561D0166BD00D42614 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0406551D0166BD00D42614 /* Album.swift */; };
+		2E04065A1D01700700D42614 /* AlbumCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0406591D01700700D42614 /* AlbumCollectionCell.swift */; };
+		2E04065D1D01812400D42614 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04065C1D01812400D42614 /* NotificationViewController.swift */; };
+		2E04065F1D01813400D42614 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E04065E1D01813400D42614 /* Notification.storyboard */; };
+		7862232467F4A1981574E4DC /* Pods_SwiftBondSampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C081BD832320674F2BF89F /* Pods_SwiftBondSampler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E04061D1D00A1D500D42614 /* SwiftBondSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBondSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0406201D00A1D500D42614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E0406221D00A1D500D42614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E0406221D00A1D500D42614 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		2E0406251D00A1D500D42614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E0406271D00A1D500D42614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E04062A1D00A1D500D42614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E04062C1D00A1D500D42614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0406351D00AA7300D42614 /* CombineMultipleInputsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineMultipleInputsViewController.swift; sourceTree = "<group>"; };
+		2E0406371D00AA9100D42614 /* CombineMultipleInputs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CombineMultipleInputs.storyboard; sourceTree = "<group>"; };
+		2E04063A1D01470300D42614 /* Observable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Observable.storyboard; sourceTree = "<group>"; };
+		2E04063C1D01470C00D42614 /* ObservableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
+		2E04063F1D014D1500D42614 /* BindingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingViewController.swift; sourceTree = "<group>"; };
+		2E0406411D014D1F00D42614 /* Binding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Binding.storyboard; sourceTree = "<group>"; };
+		2E0406461D01565300D42614 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		2E0406481D01565D00D42614 /* List.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = List.storyboard; sourceTree = "<group>"; };
+		2E04064A1D01567800D42614 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		2E04064C1D01568B00D42614 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		2E04064F1D01667000D42614 /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		2E0406511D01667A00D42614 /* Album.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Album.storyboard; sourceTree = "<group>"; };
+		2E0406531D0166B100D42614 /* AlbumViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		2E0406551D0166BD00D42614 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		2E0406591D01700700D42614 /* AlbumCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCollectionCell.swift; sourceTree = "<group>"; };
+		2E04065C1D01812400D42614 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		2E04065E1D01813400D42614 /* Notification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		39C081BD832320674F2BF89F /* Pods_SwiftBondSampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBondSampler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		746116058BA1E5CFAEC579A3 /* Pods-SwiftBondSampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBondSampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBondSampler/Pods-SwiftBondSampler.debug.xcconfig"; sourceTree = "<group>"; };
+		7716A8BE5C0FD540EE162DD8 /* Pods-SwiftBondSampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBondSampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBondSampler/Pods-SwiftBondSampler.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7862232467F4A1981574E4DC /* Pods_SwiftBondSampler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +79,8 @@
 			children = (
 				2E04061F1D00A1D500D42614 /* SwiftBondSampler */,
 				2E04061E1D00A1D500D42614 /* Products */,
+				376943F91AB2438DAA63C405 /* Pods */,
+				80D41C17BA1A51B17ADAD2EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +95,96 @@
 		2E04061F1D00A1D500D42614 /* SwiftBondSampler */ = {
 			isa = PBXGroup;
 			children = (
+				2E0406391D0146E100D42614 /* Observable */,
+				2E04063E1D014C9400D42614 /* View Binding */,
+				2E0406341D00A8EA00D42614 /* Combine Multiple Inputs */,
+				2E04065B1D0180F500D42614 /* Notification */,
+				2E0406431D0155D200D42614 /* ViewModel + TableView */,
+				2E04064E1D0165CD00D42614 /* ViewModel + CollectionView */,
 				2E0406201D00A1D500D42614 /* AppDelegate.swift */,
-				2E0406221D00A1D500D42614 /* ViewController.swift */,
+				2E0406221D00A1D500D42614 /* RootViewController.swift */,
 				2E0406241D00A1D500D42614 /* Main.storyboard */,
 				2E0406271D00A1D500D42614 /* Assets.xcassets */,
 				2E0406291D00A1D500D42614 /* LaunchScreen.storyboard */,
 				2E04062C1D00A1D500D42614 /* Info.plist */,
 			);
 			path = SwiftBondSampler;
+			sourceTree = "<group>";
+		};
+		2E0406341D00A8EA00D42614 /* Combine Multiple Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				2E0406351D00AA7300D42614 /* CombineMultipleInputsViewController.swift */,
+				2E0406371D00AA9100D42614 /* CombineMultipleInputs.storyboard */,
+			);
+			name = "Combine Multiple Inputs";
+			sourceTree = "<group>";
+		};
+		2E0406391D0146E100D42614 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				2E04063C1D01470C00D42614 /* ObservableViewController.swift */,
+				2E04063A1D01470300D42614 /* Observable.storyboard */,
+			);
+			name = Observable;
+			sourceTree = "<group>";
+		};
+		2E04063E1D014C9400D42614 /* View Binding */ = {
+			isa = PBXGroup;
+			children = (
+				2E04063F1D014D1500D42614 /* BindingViewController.swift */,
+				2E0406411D014D1F00D42614 /* Binding.storyboard */,
+			);
+			name = "View Binding";
+			sourceTree = "<group>";
+		};
+		2E0406431D0155D200D42614 /* ViewModel + TableView */ = {
+			isa = PBXGroup;
+			children = (
+				2E0406461D01565300D42614 /* ListViewController.swift */,
+				2E04064A1D01567800D42614 /* ListViewModel.swift */,
+				2E04064C1D01568B00D42614 /* List.swift */,
+				2E0406481D01565D00D42614 /* List.storyboard */,
+			);
+			name = "ViewModel + TableView";
+			sourceTree = "<group>";
+		};
+		2E04064E1D0165CD00D42614 /* ViewModel + CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				2E04064F1D01667000D42614 /* AlbumViewController.swift */,
+				2E0406531D0166B100D42614 /* AlbumViewModel.swift */,
+				2E0406551D0166BD00D42614 /* Album.swift */,
+				2E0406591D01700700D42614 /* AlbumCollectionCell.swift */,
+				2E0406511D01667A00D42614 /* Album.storyboard */,
+			);
+			name = "ViewModel + CollectionView";
+			sourceTree = "<group>";
+		};
+		2E04065B1D0180F500D42614 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				2E04065C1D01812400D42614 /* NotificationViewController.swift */,
+				2E04065E1D01813400D42614 /* Notification.storyboard */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		376943F91AB2438DAA63C405 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				746116058BA1E5CFAEC579A3 /* Pods-SwiftBondSampler.debug.xcconfig */,
+				7716A8BE5C0FD540EE162DD8 /* Pods-SwiftBondSampler.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80D41C17BA1A51B17ADAD2EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39C081BD832320674F2BF89F /* Pods_SwiftBondSampler.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E04062F1D00A1D500D42614 /* Build configuration list for PBXNativeTarget "SwiftBondSampler" */;
 			buildPhases = (
+				6C5C9E2FEDAEFFF23BFE4ED7 /* [CP] Check Pods Manifest.lock */,
 				2E0406191D00A1D500D42614 /* Sources */,
 				2E04061A1D00A1D500D42614 /* Frameworks */,
 				2E04061B1D00A1D500D42614 /* Resources */,
+				6EDDB76A8CBD570ECA6E7103 /* [CP] Embed Pods Frameworks */,
+				3E6EF4B4FAE4C45D3D91CFFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +248,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0406521D01667A00D42614 /* Album.storyboard in Resources */,
 				2E04062B1D00A1D500D42614 /* LaunchScreen.storyboard in Resources */,
+				2E04065F1D01813400D42614 /* Notification.storyboard in Resources */,
+				2E0406491D01565D00D42614 /* List.storyboard in Resources */,
+				2E04063B1D01470300D42614 /* Observable.storyboard in Resources */,
 				2E0406281D00A1D500D42614 /* Assets.xcassets in Resources */,
+				2E0406381D00AA9100D42614 /* CombineMultipleInputs.storyboard in Resources */,
+				2E0406421D014D1F00D42614 /* Binding.storyboard in Resources */,
 				2E0406261D00A1D500D42614 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E6EF4B4FAE4C45D3D91CFFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBondSampler/Pods-SwiftBondSampler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5C9E2FEDAEFFF23BFE4ED7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EDDB76A8CBD570ECA6E7103 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBondSampler/Pods-SwiftBondSampler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E0406191D00A1D500D42614 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0406231D00A1D500D42614 /* ViewController.swift in Sources */,
+				2E04063D1D01470C00D42614 /* ObservableViewController.swift in Sources */,
+				2E04064D1D01568B00D42614 /* List.swift in Sources */,
+				2E0406361D00AA7300D42614 /* CombineMultipleInputsViewController.swift in Sources */,
+				2E0406501D01667000D42614 /* AlbumViewController.swift in Sources */,
+				2E04064B1D01567800D42614 /* ListViewModel.swift in Sources */,
+				2E04065A1D01700700D42614 /* AlbumCollectionCell.swift in Sources */,
+				2E0406471D01565300D42614 /* ListViewController.swift in Sources */,
+				2E0406231D00A1D500D42614 /* RootViewController.swift in Sources */,
 				2E0406211D00A1D500D42614 /* AppDelegate.swift in Sources */,
+				2E04065D1D01812400D42614 /* NotificationViewController.swift in Sources */,
+				2E0406561D0166BD00D42614 /* Album.swift in Sources */,
+				2E0406541D0166B100D42614 /* AlbumViewModel.swift in Sources */,
+				2E0406401D014D1500D42614 /* BindingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +438,7 @@
 		};
 		2E0406301D00A1D500D42614 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746116058BA1E5CFAEC579A3 /* Pods-SwiftBondSampler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftBondSampler/Info.plist;
@@ -258,6 +450,7 @@
 		};
 		2E0406311D00A1D500D42614 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7716A8BE5C0FD540EE162DD8 /* Pods-SwiftBondSampler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftBondSampler/Info.plist;
@@ -286,6 +479,7 @@
 				2E0406311D00A1D500D42614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

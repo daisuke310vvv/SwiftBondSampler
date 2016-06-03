@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  SwiftBondSampler
-//
-//  Created by AuraOtsuka on 2016/06/03.
-//  Copyright © 2016年 AuraOtsuka. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

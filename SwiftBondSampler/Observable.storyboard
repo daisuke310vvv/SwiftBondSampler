@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TC3-jv-mew">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Observable View Controller-->
+        <scene sceneID="ji4-gm-iPy">
+            <objects>
+                <viewController id="TC3-jv-mew" customClass="ObservableViewController" customModule="SwiftBondSampler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v3M-Vz-alL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tbl-BQ-HiZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bi7-Qb-2B5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLv-3y-8nF">
+                                <rect key="frame" x="59" y="190" width="256" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="NYq-o9-XBU"/>
+                                    <constraint firstAttribute="height" constant="120" id="wdI-ZV-Vr6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="37"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now the captain is..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CbZ-hF-3aQ">
+                                <rect key="frame" x="110" y="118" width="155" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLP-N0-YH2">
+                                <rect key="frame" x="161" y="406" width="53" height="30"/>
+                                <state key="normal" title="Change"/>
+                                <connections>
+                                    <action selector="change" destination="TC3-jv-mew" eventType="touchUpInside" id="8GI-5y-AmS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CbZ-hF-3aQ" firstAttribute="top" secondItem="v3M-Vz-alL" secondAttribute="bottom" constant="73" id="0hu-xm-dvH"/>
+                            <constraint firstItem="PLv-3y-8nF" firstAttribute="top" secondItem="CbZ-hF-3aQ" secondAttribute="bottom" constant="51" id="8cv-vT-o1B"/>
+                            <constraint firstItem="CbZ-hF-3aQ" firstAttribute="leading" secondItem="bi7-Qb-2B5" secondAttribute="leadingMargin" constant="203" id="BGj-bj-ae2"/>
+                            <constraint firstItem="PLv-3y-8nF" firstAttribute="top" secondItem="CbZ-hF-3aQ" secondAttribute="bottom" constant="51" id="FOA-Jc-oYw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QLP-N0-YH2" secondAttribute="trailing" constant="211" id="H9k-Tm-ojk"/>
+                            <constraint firstItem="QLP-N0-YH2" firstAttribute="top" secondItem="PLv-3y-8nF" secondAttribute="bottom" constant="96" id="Jqm-e6-SMA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CbZ-hF-3aQ" secondAttribute="trailing" constant="202" id="Nwa-GJ-a7a"/>
+                            <constraint firstItem="PLv-3y-8nF" firstAttribute="centerX" secondItem="bi7-Qb-2B5" secondAttribute="centerX" id="VLE-vp-nIR"/>
+                            <constraint firstItem="CbZ-hF-3aQ" firstAttribute="leading" secondItem="bi7-Qb-2B5" secondAttribute="leadingMargin" constant="203" id="Z1I-f4-Kdr"/>
+                            <constraint firstItem="QLP-N0-YH2" firstAttribute="leading" secondItem="bi7-Qb-2B5" secondAttribute="leadingMargin" constant="212" id="cYZ-yj-nBE"/>
+                            <constraint firstItem="QLP-N0-YH2" firstAttribute="centerX" secondItem="bi7-Qb-2B5" secondAttribute="centerX" id="i2L-Ez-mhK"/>
+                            <constraint firstItem="PLv-3y-8nF" firstAttribute="centerY" secondItem="bi7-Qb-2B5" secondAttribute="centerY" multiplier="3:4" id="m0r-rD-3on"/>
+                            <constraint firstItem="CbZ-hF-3aQ" firstAttribute="centerX" secondItem="bi7-Qb-2B5" secondAttribute="centerX" id="rnD-Cg-3ae"/>
+                            <constraint firstItem="QLP-N0-YH2" firstAttribute="top" secondItem="PLv-3y-8nF" secondAttribute="bottom" constant="96" id="uw6-sc-cxz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CbZ-hF-3aQ" secondAttribute="trailing" constant="202" id="z51-69-iWo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0hu-xm-dvH"/>
+                                <exclude reference="BGj-bj-ae2"/>
+                                <exclude reference="Nwa-GJ-a7a"/>
+                                <exclude reference="Z1I-f4-Kdr"/>
+                                <exclude reference="z51-69-iWo"/>
+                                <exclude reference="FOA-Jc-oYw"/>
+                                <exclude reference="H9k-Tm-ojk"/>
+                                <exclude reference="Jqm-e6-SMA"/>
+                                <exclude reference="cYZ-yj-nBE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="label" destination="PLv-3y-8nF" id="I2f-x2-5eO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MgD-bG-rnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285" y="392"/>
+        </scene>
+    </scenes>
+</document>
